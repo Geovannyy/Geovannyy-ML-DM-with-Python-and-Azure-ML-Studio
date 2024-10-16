@@ -1,5 +1,41 @@
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Python cache files
 __pycache__/
+*.pyc
+
+# IDE configurations
 .vscode/
 .idea/
-*.pyc
+
+# Data directories - exclude if you're using large datasets that shouldn't be tracked
+data/raw/               # Raw data directory
+data/interim/           # Interim data (processed but not final)
+data/processed/         # Processed data (final outputs or ready for modeling)
+data/external/          # External datasets (if any)
+data/.DS_Store          # macOS system file
+
+# Model files
+models/                 # Model outputs
+
+# Output files
+reports/                # Reports and output files (if generated during analysis)
+reports/figures/        # Figures created during reports
+
+# Environment files
+.env                    # Environment variables (like secrets and config)
+*.env                   # Any env file
+
+# Python virtual environment
+venv/                   # Exclude virtual environment directories
+env/                    # If you name your virtual environments this way
+
+# Configuration files
+*.log                   # Log files generated during processing
+*.csv                   # If you don't want to track intermediate CSV outputs
+*.xlsx                  # Exclude Excel files if they are generated
+
+# Temporary files
+*.tmp                   # Temporary files
+*.bak                   # Backup files
