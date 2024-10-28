@@ -1,0 +1,26 @@
+{
+    "categorical_features": [
+        "job",
+        "marital",
+        "education",
+        "contact",
+        "poutcome",
+        "season",
+        "age_group"
+    ],
+    "numerical_features": [
+        "campaign_log"
+    ],
+    "binary_features": [
+        "default",
+        "housing",
+        "loan",
+        "housing_unknown",
+        "previously_contacted",
+        "is_weekstart",
+        "is_weekmid",
+        "is_weekend",
+        "had_previous_contact"
+    ],
+    "target": "y"
+}
