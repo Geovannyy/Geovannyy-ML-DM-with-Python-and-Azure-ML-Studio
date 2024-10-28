@@ -16,11 +16,10 @@
         "housing",
         "loan",
         "housing_unknown",
-        "previously_contacted",
+        "loan_unknown",
         "is_weekstart",
         "is_weekmid",
         "is_weekend",
-        "had_previous_contact"
-    ],
-    "target": "y"
+        "contact_history"
+    ]
 }
