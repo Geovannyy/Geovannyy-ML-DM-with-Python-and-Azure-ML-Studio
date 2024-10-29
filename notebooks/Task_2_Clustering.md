@@ -8,12 +8,16 @@
  5. Evaluation. 
  6. Deplotment.
 
-#### 1.Bussiness 
+#### 1.Bussiness Understanding
+
+
 - The Data set hold user session data from an e-commerce website collected over a period of one year.
 - The Session represent a unique user. 
 - The goal is to 
 
-#### 2.Data Understanding.
+### 2.Data Understanding.
+
+#### 2.1 Dependecies
 
 
 ```python
@@ -38,15 +42,17 @@ from sklearn.metrics import silhouette_score
 from sklearn.cluster import KMeans
 ```
 
-##### 2.1 Load the dataset
+#### 2.1 Load the dataset
 
 
 ```python
+#arbitrary seed for reproducibility
 np.random.seed(96)
 ```
 
 
 ```python
+#load data in to a pandas dataframe
 df = pd.read_csv('../data/raw/online_shoppers_intention.csv')
 ```
 
@@ -834,11 +840,25 @@ print(df.isnull().sum())
 
 ```python
 print("\nDuplicate values in rows:", df.duplicated().sum())
+
+# Display the duplicate rows
+df[df.duplicated(keep=False)]
+
 ```
 
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    Cell In[1], line 1
+    ----> 1 print("\nDuplicate values in rows:", df.duplicated().sum())
+          3 # Display the duplicate rows
+          4 df[df.duplicated(keep=False)]
     
-    Duplicate values in rows: 125
-    
+
+    NameError: name 'df' is not defined
+
 
 
 ```python
@@ -899,7 +919,7 @@ plt.show()
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_16_0.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_18_0.png)
     
 
 
@@ -930,13 +950,13 @@ plt.show()
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_17_0.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_19_0.png)
     
 
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_17_1.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_19_1.png)
     
 
 
@@ -957,13 +977,13 @@ plt.show()
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_18_0.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_20_0.png)
     
 
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_18_1.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_20_1.png)
     
 
 
@@ -991,13 +1011,13 @@ plt.show()
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_19_0.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_21_0.png)
     
 
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_19_1.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_21_1.png)
     
 
 
@@ -1014,7 +1034,7 @@ plt.show()
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_20_0.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_22_0.png)
     
 
 
@@ -1104,7 +1124,7 @@ plt.show()
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_22_1.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_24_1.png)
     
 
 
@@ -1328,7 +1348,7 @@ plt.show()
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_32_0.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_34_0.png)
     
 
 
@@ -1392,7 +1412,7 @@ plt.show()
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_37_0.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_39_0.png)
     
 
 
@@ -1451,7 +1471,7 @@ plt.show()
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_40_0.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_42_0.png)
     
 
 
@@ -1469,7 +1489,7 @@ plt.show()
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_41_0.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_43_0.png)
     
 
 
@@ -1618,13 +1638,13 @@ plot_temporal_patterns(df)
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_43_0.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_45_0.png)
     
 
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_43_1.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_45_1.png)
     
 
 
@@ -1770,13 +1790,13 @@ plot_temporal_patterns(df)
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_43_3.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_45_3.png)
     
 
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_43_4.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_45_4.png)
     
 
 
@@ -2067,7 +2087,7 @@ print(summary_df.round(3))
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_45_1.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_47_1.png)
     
 
 
@@ -2077,7 +2097,7 @@ print(summary_df.round(3))
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_45_3.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_47_3.png)
     
 
 
@@ -2087,7 +2107,7 @@ print(summary_df.round(3))
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_45_5.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_47_5.png)
     
 
 
@@ -2097,7 +2117,7 @@ print(summary_df.round(3))
 
 
     
-![png](Task_2_Clustering_files/Task_2_Clustering_45_7.png)
+![png](Task_2_Clustering_files/Task_2_Clustering_47_7.png)
     
 
 
