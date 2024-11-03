@@ -15,7 +15,9 @@ data/interim/           # Interim data (processed but not final)
 data/processed/         # Processed data (final outputs or ready for modeling)
 data/external/          # External datasets (if any)
 data/.DS_Store          # macOS system file
-
+data/reports/markdown_extraction/ # Extracted markdown files from notebooks
+data/reports/model_evaluation/Task_3
+data/reports/model_evaluations
 # Model files
 models/                 # Model outputs
 
