@@ -37,7 +37,7 @@ env/                    # If you name your virtual environments this way
 *.log                   # Log files generated during processing
 *.csv                   # If you don't want to track intermediate CSV outputs
 *.xlsx                  # Exclude Excel files if they are generated
-
+*.pt
 # Temporary files
 *.tmp                   # Temporary files
 *.bak                   # Backup files
