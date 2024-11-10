@@ -1,0 +1,59 @@
+{
+    "n_components": 6,
+    "explained_variance_ratio": [
+        0.33305885467754226,
+        0.18098094355886704,
+        0.08513310988517593,
+        0.06627253175010928,
+        0.05130085766388401,
+        0.045281681981855365
+    ],
+    "cumulative_variance": [
+        0.33305885467754226,
+        0.5140397982364093,
+        0.5991729081215853,
+        0.6654454398716946,
+        0.7167462975355786,
+        0.762027979517434
+    ],
+    "feature_names": [
+        "Administrative",
+        "Administrative_Duration",
+        "Informational",
+        "Informational_Duration",
+        "ProductRelated",
+        "ProductRelated_Duration",
+        "BounceRates",
+        "ExitRates",
+        "PageValues",
+        "SpecialDay",
+        "OperatingSystems",
+        "Browser",
+        "Region",
+        "TrafficType",
+        "VisitorType",
+        "total_duration",
+        "total_pages",
+        "avg_time_per_page",
+        "admin_ratio",
+        "info_ratio",
+        "product_ratio",
+        "admin_duration_ratio",
+        "info_duration_ratio",
+        "product_duration_ratio",
+        "bounce_exit_ratio",
+        "value_per_page",
+        "engagement_score",
+        "month_sin",
+        "month_cos",
+        "special_weekend"
+    ],
+    "pca_feature_names": [
+        "PC1",
+        "PC2",
+        "PC3",
+        "PC4",
+        "PC5",
+        "PC6"
+    ]
+}
