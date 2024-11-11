@@ -18,6 +18,7 @@ data/.DS_Store          # macOS system file
 data/reports/markdown_extraction/ # Extracted markdown files from notebooks
 data/reports/model_evaluation/Task_3
 data/reports/model_evaluations
+data/external
 # Model files
 models/                 # Model outputs
 
