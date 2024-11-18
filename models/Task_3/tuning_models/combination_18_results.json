@@ -1,0 +1,13 @@
+{
+  "parameters": {
+    "batch_size": 64,
+    "dropout_rate": 0.2,
+    "embedding_dim": 100,
+    "learning_rate": 0.001,
+    "lstm_units": 128
+  },
+  "best_val_loss": 0.6048060059547424,
+  "best_val_accuracy": 0.9352489113807678,
+  "best_epoch": 8,
+  "combination": 18
+}

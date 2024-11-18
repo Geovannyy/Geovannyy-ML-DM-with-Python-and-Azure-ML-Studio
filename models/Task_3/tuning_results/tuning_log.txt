@@ -1,0 +1,388 @@
+Hyperparameter Tuning Log
+Started at: 2024-11-18 18:05:37.496580
+==================================================
+
+
+Combination 1/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.2,
+  "embedding_dim": 100,
+  "learning_rate": 0.001,
+  "lstm_units": 64
+}
+Val Loss: 0.8345
+Val Accuracy: 0.8397
+--------------------------------------------------
+
+Combination 2/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.2,
+  "embedding_dim": 100,
+  "learning_rate": 0.001,
+  "lstm_units": 128
+}
+Val Loss: 0.7886
+Val Accuracy: 0.8171
+--------------------------------------------------
+
+Combination 3/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.2,
+  "embedding_dim": 100,
+  "learning_rate": 0.0001,
+  "lstm_units": 64
+}
+Val Loss: 0.8361
+Val Accuracy: 0.8272
+--------------------------------------------------
+
+Combination 4/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.2,
+  "embedding_dim": 100,
+  "learning_rate": 0.0001,
+  "lstm_units": 128
+}
+Val Loss: 0.8390
+Val Accuracy: 0.7936
+--------------------------------------------------
+
+Combination 5/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.2,
+  "embedding_dim": 200,
+  "learning_rate": 0.001,
+  "lstm_units": 64
+}
+Val Loss: 0.8018
+Val Accuracy: 0.8924
+--------------------------------------------------
+
+Combination 6/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.2,
+  "embedding_dim": 200,
+  "learning_rate": 0.001,
+  "lstm_units": 128
+}
+Val Loss: 0.7964
+Val Accuracy: 0.8859
+--------------------------------------------------
+
+Combination 7/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.2,
+  "embedding_dim": 200,
+  "learning_rate": 0.0001,
+  "lstm_units": 64
+}
+Val Loss: 0.8755
+Val Accuracy: 0.7851
+--------------------------------------------------
+
+Combination 8/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.2,
+  "embedding_dim": 200,
+  "learning_rate": 0.0001,
+  "lstm_units": 128
+}
+Val Loss: 0.8759
+Val Accuracy: 0.8349
+--------------------------------------------------
+
+Combination 9/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.3,
+  "embedding_dim": 100,
+  "learning_rate": 0.001,
+  "lstm_units": 64
+}
+Val Loss: 0.8019
+Val Accuracy: 0.8389
+--------------------------------------------------
+
+Combination 10/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.3,
+  "embedding_dim": 100,
+  "learning_rate": 0.001,
+  "lstm_units": 128
+}
+Val Loss: 0.7764
+Val Accuracy: 0.8126
+--------------------------------------------------
+
+Combination 11/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.3,
+  "embedding_dim": 100,
+  "learning_rate": 0.0001,
+  "lstm_units": 64
+}
+Val Loss: 0.8853
+Val Accuracy: 0.8296
+--------------------------------------------------
+
+Combination 12/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.3,
+  "embedding_dim": 100,
+  "learning_rate": 0.0001,
+  "lstm_units": 128
+}
+Val Loss: 0.8377
+Val Accuracy: 0.8361
+--------------------------------------------------
+
+Combination 13/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.3,
+  "embedding_dim": 200,
+  "learning_rate": 0.001,
+  "lstm_units": 64
+}
+Val Loss: 0.8136
+Val Accuracy: 0.8486
+--------------------------------------------------
+
+Combination 14/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.3,
+  "embedding_dim": 200,
+  "learning_rate": 0.001,
+  "lstm_units": 128
+}
+Val Loss: 0.7639
+Val Accuracy: 0.8171
+--------------------------------------------------
+
+Combination 15/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.3,
+  "embedding_dim": 200,
+  "learning_rate": 0.0001,
+  "lstm_units": 64
+}
+Val Loss: 0.8636
+Val Accuracy: 0.8353
+--------------------------------------------------
+
+Combination 16/32
+Parameters: {
+  "batch_size": 32,
+  "dropout_rate": 0.3,
+  "embedding_dim": 200,
+  "learning_rate": 0.0001,
+  "lstm_units": 128
+}
+Val Loss: 0.8958
+Val Accuracy: 0.7900
+--------------------------------------------------
+
+Combination 17/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.2,
+  "embedding_dim": 100,
+  "learning_rate": 0.001,
+  "lstm_units": 64
+}
+Val Loss: 0.7993
+Val Accuracy: 0.8418
+--------------------------------------------------
+
+Combination 18/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.2,
+  "embedding_dim": 100,
+  "learning_rate": 0.001,
+  "lstm_units": 128
+}
+Val Loss: 0.6048
+Val Accuracy: 0.9352
+--------------------------------------------------
+
+Combination 19/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.2,
+  "embedding_dim": 100,
+  "learning_rate": 0.0001,
+  "lstm_units": 64
+}
+Val Loss: 0.7652
+Val Accuracy: 0.8102
+--------------------------------------------------
+
+Combination 20/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.2,
+  "embedding_dim": 100,
+  "learning_rate": 0.0001,
+  "lstm_units": 128
+}
+Val Loss: 0.8054
+Val Accuracy: 0.7916
+--------------------------------------------------
+
+Combination 21/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.2,
+  "embedding_dim": 200,
+  "learning_rate": 0.001,
+  "lstm_units": 64
+}
+Val Loss: 0.7680
+Val Accuracy: 0.8911
+--------------------------------------------------
+
+Combination 22/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.2,
+  "embedding_dim": 200,
+  "learning_rate": 0.001,
+  "lstm_units": 128
+}
+Val Loss: 0.8074
+Val Accuracy: 0.8523
+--------------------------------------------------
+
+Combination 23/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.2,
+  "embedding_dim": 200,
+  "learning_rate": 0.0001,
+  "lstm_units": 64
+}
+Val Loss: 0.8475
+Val Accuracy: 0.7920
+--------------------------------------------------
+
+Combination 24/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.2,
+  "embedding_dim": 200,
+  "learning_rate": 0.0001,
+  "lstm_units": 128
+}
+Val Loss: 0.8225
+Val Accuracy: 0.8377
+--------------------------------------------------
+
+Combination 25/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.3,
+  "embedding_dim": 100,
+  "learning_rate": 0.001,
+  "lstm_units": 64
+}
+Val Loss: 0.8277
+Val Accuracy: 0.8555
+--------------------------------------------------
+
+Combination 26/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.3,
+  "embedding_dim": 100,
+  "learning_rate": 0.001,
+  "lstm_units": 128
+}
+Val Loss: 0.7810
+Val Accuracy: 0.8547
+--------------------------------------------------
+
+Combination 27/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.3,
+  "embedding_dim": 100,
+  "learning_rate": 0.0001,
+  "lstm_units": 64
+}
+Val Loss: 0.8821
+Val Accuracy: 0.7782
+--------------------------------------------------
+
+Combination 28/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.3,
+  "embedding_dim": 100,
+  "learning_rate": 0.0001,
+  "lstm_units": 128
+}
+Val Loss: 0.8833
+Val Accuracy: 0.8316
+--------------------------------------------------
+
+Combination 29/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.3,
+  "embedding_dim": 200,
+  "learning_rate": 0.001,
+  "lstm_units": 64
+}
+Val Loss: 0.8318
+Val Accuracy: 0.8843
+--------------------------------------------------
+
+Combination 30/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.3,
+  "embedding_dim": 200,
+  "learning_rate": 0.001,
+  "lstm_units": 128
+}
+Val Loss: 0.8293
+Val Accuracy: 0.8122
+--------------------------------------------------
+
+Combination 31/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.3,
+  "embedding_dim": 200,
+  "learning_rate": 0.0001,
+  "lstm_units": 64
+}
+Val Loss: 0.8448
+Val Accuracy: 0.8337
+--------------------------------------------------
+
+Combination 32/32
+Parameters: {
+  "batch_size": 64,
+  "dropout_rate": 0.3,
+  "embedding_dim": 200,
+  "learning_rate": 0.0001,
+  "lstm_units": 128
+}
+Val Loss: 0.8184
+Val Accuracy: 0.7993
+--------------------------------------------------
